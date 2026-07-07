@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#DD000000"
+    android:padding="12dp"
+    android:elevation="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TapMarker"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn_add_tap"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:text="+"
+            android:textSize="24sp"
+            android:backgroundTint="#FF5722" />
+
+        <Button
+            android:id="@+id/btn_add_scroll"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:text="↕"
+            android:textSize="24sp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:text="▶"
+            android:textSize="24sp"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:text="✕"
+            android:textSize="24sp"
+            android:backgroundTint="#F44336"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_point_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Taps: 0 | Scroll: No"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+</LinearLayout>

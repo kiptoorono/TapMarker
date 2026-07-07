@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_tap_number"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:background="@drawable/circle_red"
+    android:gravity="center"
+    android:text="1"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:elevation="20dp" />
