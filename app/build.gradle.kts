@@ -29,7 +29,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmVersion = "17"
+        jvmTarget = "17"   // <-- This is the correct property name
     }
 }
 
